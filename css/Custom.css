@@ -1,0 +1,285 @@
+img {
+  vertical-align: middle;
+  border-style: none;
+	padding: 10px
+}
+
+.pendle-nav {
+    background-color: #001f3f !important;
+}
+
+
+.btn-success, .btn-dark, .btn-lg{
+	    color: #fff;
+    background-color: #001F3F;
+    border-color: #001f3f;
+}
+	  /* Add the background image and styles to the section */
+.welcome-section .jumbotron {
+    position: relative; /* Ensure content can sit on top of the background */
+    background-image: url('../images/2024-12-09.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Make the image cover the entire section */
+    background-position: center; /* Center the image */
+    color: white; /* Ensure text color stands out */
+    padding: 63px 0; /* Add padding to give space around content */
+}
+
+/* Overlay for better text visibility */
+.welcome-section .jumbotron::before {
+    content: ''; /* Empty content to create a pseudo-element */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black overlay with opacity */
+    z-index: 1; /* Place overlay below the text */
+}
+
+/* Ensure text stays above the overlay */
+.welcome-section .container {
+    position: relative;
+    z-index: 2; /* Text appears above the overlay */
+}
+
+/* Optional: Style the button */
+.primary-btn {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Button padding */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.primary-btn:hover {
+    background-color: #28A745; /* Darker shade on hover */
+}
+.btn-dark:hover {
+    background-color: #28A745; /* Darker shade on hover */
+}
+
+
+  body {
+            font-family: 'Arial', sans-serif; /* Apply sans-serif font */
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        h2 {
+            font-family: 'Arial', sans-serif; /* Specific for h2 */
+            font-weight: bold;
+        }
+
+        .service-card h4 {
+            font-family: 'Arial', sans-serif; /* Apply to service cards */
+        }
+
+.custom-img {
+        height: 400px; /* Set a fixed height */
+        width: 100%;   /* Ensure the image takes the full width */
+        object-fit: cover; /* Maintain aspect ratio while filling the container */
+    }
+ body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .contact-container {
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 1200px;
+            margin: 40px auto;
+            text-align: center;
+        }
+        .contact-header {
+            background: #001F3F; /* Nav bar color gradient */
+            color: #fff;
+            padding: 40px;
+            text-align: center;
+        }
+        .contact-header h2 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .contact-header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        .contact-form {
+            padding: 40px;
+            text-align: left; /* Align form labels and inputs to the left */
+        }
+        .form-control {
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            padding: 12px;
+            font-size: 1rem;
+        }
+        .form-control:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+        }
+        .btn-primary {
+            background: #001F3F; /* Nav bar color gradient */
+            border: none;
+            padding: 12px 24px;
+            font-size: 1rem;
+            font-weight: 500;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+        }
+        .info-section {
+            padding: 40px;
+            background-color: #fff;
+            border-left: 1px solid #eee;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .info-section h4 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #bl;
+        }
+        .info-section p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+            color: #555;
+        }
+        .info-section a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .info-section a:hover {
+            color: #0056b3;
+        }
+        .map-container {
+            height: 100%;
+            min-height: 400px;
+            background-color: #e0e0e0;
+        }
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        /* Additional CSS for centering layout and dropdown */
+        .contact-container .row {
+            justify-content: center;
+        }
+        .contact-form .form-label {
+            text-align: left;
+        }
+        .form-control {
+            width: 100%;
+        }
+
+ body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .contact-container {
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 1200px;
+            margin: 40px auto;
+            text-align: center;
+        }
+        .contact-header {
+            background: #001F3F; /* Nav bar color gradient */
+            color: #fff;
+            padding: 40px;
+            text-align: center;
+        }
+        .contact-header h2 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .contact-header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        .contact-form {
+            padding: 40px;
+            text-align: left; /* Align form labels and inputs to the left */
+        }
+        .form-control {
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            padding: 12px;
+            font-size: 1rem;
+        }
+        .form-control:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+        }
+        .btn-primary {
+            background: #001F3F; /* Nav bar color gradient */
+            border: none;
+            padding: 12px 24px;
+            font-size: 1rem;
+            font-weight: 500;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+        }
+        .info-section {
+            padding: 40px;
+            background-color: #fff;
+            border-left: 1px solid #eee;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .info-section h4 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #bl;
+        }
+        .info-section p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+            color: #555;
+        }
+        .info-section a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .info-section a:hover {
+            color: #0056b3;
+        }
+        .map-container {
+            height: 100%;
+            min-height: 400px;
+            background-color: #e0e0e0;
+        }
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        /* Additional CSS for centering layout and dropdown */
+        .contact-container .row {
+            justify-content: center;
+        }
+        .contact-form .form-label {
+            text-align: left;
+        }
+        .form-control {
+            width: 100%;
+        }
